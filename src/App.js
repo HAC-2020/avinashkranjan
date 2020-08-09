@@ -10,9 +10,12 @@ import {
 import InfoBox from "./InfoBox";
 import LineGraph from "./LineGraph";
 import Table from "./Table";
+import Bar from "./Bar";
 import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
+import styles from "./App.module.css";
+import image from "./images/image.png";
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
@@ -77,7 +80,8 @@ const App = () => {
         {/* Header */}
         {/* Title + Select Input dropdown field */}
         <div className="app__header">
-          <h1>COVID-19 Tracker</h1>
+          {/* <h1>COVID-19 INFORMER</h1> */}
+          <img className={styles.image} src={image} alt="COVID-19" />
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
@@ -128,16 +132,23 @@ const App = () => {
           center={mapCenter}
           zoom={mapZoom}
         />
+        <div className="app__down">
+          <Bar />
+        </div>
       </div>
       <Card className="app__right">
         <CardContent>
           <div className="app__information">
-            {/* {Table} */}
-            <h3>Live Cases by Country</h3>
-            <Table countries={tableData} />
             {/* {Graph} */}
-            <h3>Worldwide new {casesType}[In Last 4 Months]</h3>
+            <h3>
+              <b>Worldwide new {casesType}[In Last 4 Months]</b>
+            </h3>
             <LineGraph className="app__graph" casesType={casesType} />
+            {/* {Table} */}
+            <h3>
+              <b>Live Cases</b>
+            </h3>
+            <Table countries={tableData} />
           </div>
         </CardContent>
       </Card>

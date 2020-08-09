@@ -29,13 +29,19 @@ body {
   font-size: 2rem;
 }
 
+.app__down {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
 .app__stats {
   display: flex;
   justify-content: space-between;
 }
 
 .app__left {
-  flex: 0.9;
+  flex: 0.8;
 }
 
 .app__information > h3 {
@@ -48,6 +54,7 @@ body {
 .app__information > h3:last-of-type {
   margin-top: 1rem;
 }
+
 .app__right {
   display: flex;
   flex-direction: column;
@@ -60,7 +67,7 @@ body {
 }
 
 .app__graph {
-  height: 200px;
+  height: 300px;
 }
 
 @media (max-width: 940px) {
