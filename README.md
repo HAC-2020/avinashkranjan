@@ -1,6 +1,6 @@
 # COVID-19-Informer
 
-## See Live Project
+## [See Live Project](https://covid19-informer.web.app/)
 
 ## Available Scripts
 
