@@ -111,7 +111,7 @@ const App = () => {
             cases={prettyPrintStat(countryInfo.todayRecovered)}
             total={numeral(countryInfo.recovered).format("0.0a")}
           />
-          {/* Infoboxes title="Coronavirus deaths */}
+          {/* Infoboxes title = "Coronavirus deaths */}
           <InfoBox
             onClick={(e) => setCasesType("deaths")}
             title="Deaths"
