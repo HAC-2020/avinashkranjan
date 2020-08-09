@@ -98,7 +98,7 @@ const App = () => {
 
         {/* Infoboxes */}
         <div className="app__stats">
-          {/* Infoboxes title = "Coronavirus cases" */}
+          {/* Infoboxes title="Coronavirus cases" */}
           <InfoBox
             onClick={(e) => setCasesType("cases")}
             title="Coronavirus Cases"
@@ -107,7 +107,7 @@ const App = () => {
             cases={prettyPrintStat(countryInfo.todayCases)}
             total={numeral(countryInfo.cases).format("0.0a")}
           />
-          {/* Infoboxes title = "Coronavirus recoveries" */}
+          {/* Infoboxes title="Coronavirus recoveries" */}
           <InfoBox
             onClick={(e) => setCasesType("recovered")}
             title="Recovered"
@@ -136,6 +136,7 @@ const App = () => {
           <Bar />
         </div>
       </div>
+
       <Card className="app__right">
         <CardContent>
           <div className="app__information">
