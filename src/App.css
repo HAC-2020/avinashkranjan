@@ -13,6 +13,12 @@ body {
   padding: 20px;
 }
 
+.App_container__3rvio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .app__dropdown {
   background-color: white;
 }
@@ -29,12 +35,6 @@ body {
   font-size: 2rem;
 }
 
-.app__down {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-}
-
 .app__stats {
   display: flex;
   justify-content: space-between;
@@ -42,6 +42,11 @@ body {
 
 .app__left {
   flex: 0.8;
+}
+
+.app__down {
+  display: flex;
+  flex: 1;
 }
 
 .app__information > h3 {
