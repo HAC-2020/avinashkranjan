@@ -1,6 +1,7 @@
 # COVID-19-Informer
 
 ## [See Live Project](https://covid19-informer.web.app/)
+![Screenshot](https://github.com/HAC-2020/avinashkranjan/blob/master/public/Screenshot%20(118).jpg)
 
 ## Available Scripts
 
