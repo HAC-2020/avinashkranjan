@@ -1,5 +1,10 @@
 # COVID-19-Informer
 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
 ## [See Live Project](https://covid19-informer.web.app/)
 ![Screenshot](https://github.com/HAC-2020/avinashkranjan/blob/master/public/Screenshot%20(118).jpg)
 
