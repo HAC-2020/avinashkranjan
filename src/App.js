@@ -83,7 +83,7 @@ const App = () => {
           {/* <h1>COVID-19 INFORMER</h1> */}
           <img className={styles.image} src={image} alt="COVID-19" />
           <FormControl className="app__dropdown">
-            <Select
+            {/* <Select
               variant="outlined"
               value={country}
               onChange={onCountryChange}
@@ -92,7 +92,7 @@ const App = () => {
               {countries.map((country) => (
                 <MenuItem value={country.value}>{country.name}</MenuItem>
               ))}
-            </Select>
+            </Select> */}
           </FormControl>
         </div>
 
