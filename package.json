@@ -20,9 +20,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "dev": "react-scripts start",
+    "start": "react-scripts start", 
+    "build": "CI=false && react-scripts build",
+    "test": "react-scripts test --env=jsdom --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
