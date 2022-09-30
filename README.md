@@ -7,14 +7,6 @@
 
 ![Screenshot](https://github.com/HAC-2020/avinashkranjan/blob/master/public/Screenshot%20(118).jpg)
 
-## Available Scripts
-
-To Run the Project on your Machine
-
-### `npm install && npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 <h2 align=center> Project Admin ❤️ </h2>
 <p align="center">
